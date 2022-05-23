@@ -93,7 +93,6 @@ python train.py \
   --preprocess False \
   --num_of_layers 20 \
   --mode B \             
-   --gaussian_noise_level 0,25 \
    --batch_size 16 \
    --num_epochs 60 \  
 ```
