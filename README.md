@@ -25,8 +25,6 @@ When training begins, the model weights will be saved every epoch. <br />
 #### MARN-JDD-S
 
 ```bash
-Train DnCNN-B (DnCNN with known noise level)
-```
 python train.py \
   --preprocess False \
   --num_of_layers 20 \
