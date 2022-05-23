@@ -19,40 +19,53 @@ The DnCNN-3 is only a single model for three general image denoising tasks, i.e.
 
 <table>
     <tr>
-        <td><center>JPEG Artifacts (Quality 40)</center></td>
-        <td><center><b>DnCNN-3</b></center></td>
+        <td><center>Mosaic</center></td>
+         <td><center>Original</center></td>
+        <td><center><b>Output from algorithm</b></center></td>
     </tr>
     <tr>
     	<td>
-    		<center><img src="./data/monarch_jpeg_q40.png" height="300"></center>
+    		<center><img src="./testdata/1.tif_mosaic.png" height="300"></center>
     	</td>
     	<td>
-    		<center><img src="./data/monarch_jpeg_q40_DnCNN-3.png" height="300"></center>
+    		<center><img src="./testdata/1.tif_original.png" height="300"></center>
+    	</td>
+        <td>
+    		<center><img src="./testdata/1.tif_output.png" height="300"></center>
     	</td>
     </tr>
-    <tr>
-        <td><center>Gaussian Noise (Level 25)</center></td>
-        <td><center><b>DnCNN-3</b></center></td>
+       <tr>
+    	<td>
+    		<center><img src="./testdata/4.tif_mosaic.png" height="300"></center>
+    	</td>
+    	<td>
+    		<center><img src="./testdata/4.tif_original.png" height="300"></center>
+    	</td>
+        <td>
+    		<center><img src="./testdata/4.tif_output.png" height="300"></center>
+    	</td>
     </tr>
-    <tr>
+        <tr>
+    	<td>
+    		<center><img src="./testdata/kodim02.png_mosaic.png" height="300"></center>
+    	</td>
+    	<td>
+    		<center><img src="./testdata/kodim02.png_original.png" height="300"></center>
+    	</td>
         <td>
-        	<center><img src="./data/monarch_noise_l25.png" height="300"></center>
-        </td>
-        <td>
-        	<center><img src="./data/monarch_noise_l25_DnCNN-3.png" height="300"></center>
-        </td>
+    		<center><img src="./testdata/kodim02.png_output.png" height="300"></center>
+    	</td>
     </tr>
-    <tr>
-        <td><center>Super-Resolution (Scale x3)</center></td>
-        <td><center><b>DnCNN-3</b></center></td>
-    </tr>
-    <tr>
+        <tr>
+    	<td>
+    		<center><img src="./testdata/kodim01.png_mosaic.png" height="300"></center>
+    	</td>
+    	<td>
+    		<center><img src="./testdata/kodim01.png_original.png" height="300"></center>
+    	</td>
         <td>
-        	<center><img src="./data/monarch_sr_s3.png" height="300"></center>
-        </td>
-        <td>
-        	<center><img src="./data/monarch_sr_s3_DnCNN-3.png" height="300"></center>
-        </td>
+    		<center><img src="./testdata/kodim01.png_output.png" height="300"></center>
+    	</td>
     </tr>
 </table>
 
