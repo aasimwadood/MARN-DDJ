@@ -15,6 +15,46 @@ This repository is implementation of the "Deep Conjunct Denoising and Demosaicki
 
 ## Results
 
+The DnCNN-3 is only a single model for three general image denoising tasks, i.e., blind Gaussian denoising, SISR with multiple upscaling factors, and JPEG deblocking with different quality factors.
+
+<table>
+    <tr>
+        <td><center>JPEG Artifacts (Quality 40)</center></td>
+        <td><center><b>DnCNN-3</b></center></td>
+    </tr>
+    <tr>
+    	<td>
+    		<center><img src="./data/monarch_jpeg_q40.png" height="300"></center>
+    	</td>
+    	<td>
+    		<center><img src="./data/monarch_jpeg_q40_DnCNN-3.png" height="300"></center>
+    	</td>
+    </tr>
+    <tr>
+        <td><center>Gaussian Noise (Level 25)</center></td>
+        <td><center><b>DnCNN-3</b></center></td>
+    </tr>
+    <tr>
+        <td>
+        	<center><img src="./data/monarch_noise_l25.png" height="300"></center>
+        </td>
+        <td>
+        	<center><img src="./data/monarch_noise_l25_DnCNN-3.png" height="300"></center>
+        </td>
+    </tr>
+    <tr>
+        <td><center>Super-Resolution (Scale x3)</center></td>
+        <td><center><b>DnCNN-3</b></center></td>
+    </tr>
+    <tr>
+        <td>
+        	<center><img src="./data/monarch_sr_s3.png" height="300"></center>
+        </td>
+        <td>
+        	<center><img src="./data/monarch_sr_s3_DnCNN-3.png" height="300"></center>
+        </td>
+    </tr>
+</table>
 
 ## Usages
 
