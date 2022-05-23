@@ -15,7 +15,7 @@ This repository is implementation of the "Deep Conjunct Denoising and Demosaicki
 
 ## Results
 
-The DnCNN-3 is only a single model for three general image denoising tasks, i.e., blind Gaussian denoising, SISR with multiple upscaling factors, and JPEG deblocking with different quality factors.
+The MARN-JDD greatly outperforms numerous state-of-the-art joint demosaicking and denoising methods in terms of both peak signal-to-noise ratio (PSNR) and structure similarity index metrics (SSIM).
 
 <table>
     <tr>
