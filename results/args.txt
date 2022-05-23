@@ -1,0 +1,1 @@
+Namespace(batch_size=128, channels=1, clip=0.25, epochs=50, init=False, k1=5, k2=5, lr=0.001, max_iter=10, milestone=30, mode='S', noise_estimation=False, num_gpus=1, num_of_layers=20, outf='logs', preprocess=False, save_images=True, save_path='results/', use_gpu=False)
